@@ -9,6 +9,7 @@ export const router = createRouter({
     { path: '/pickup', name: 'pickup', component: () => import('./views/PickupView.vue') },
     { path: '/ticket/:ref', name: 'ticket', component: () => import('./views/TicketView.vue') },
     { path: '/kitchen', name: 'kitchen', component: () => import('./views/KitchenView.vue') },
+    { path: '/privacy', name: 'privacy', component: () => import('./views/PrivacyView.vue') },
     { path: '/:pathMatch(.*)*', redirect: '/' },
   ],
   scrollBehavior: () => ({ top: 0 }),

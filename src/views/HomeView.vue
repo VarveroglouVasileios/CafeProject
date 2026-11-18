@@ -16,7 +16,7 @@ const marquee = 'Καφές ✺ Brunch ✺ Φρέσκο ψωμί ✺ Φραπέ 
       <p class="hero-lead">Παραγγείλετε από το κινητό, διαλέξτε ώρα και πάρτε τον στο χέρι όταν φτάσετε. Χωρίς ουρά.</p>
       <p style="margin-top: 2rem; display: flex; flex-wrap: wrap; gap: 1.4rem; align-items: center">
         <RouterLink class="btn" to="/menu">Παραγγείλτε τώρα</RouterLink>
-        <span style="font: 700 1.3rem 'Playpen Sans'; transform: rotate(-4deg)">...έτοιμο σε 10 λεπτά!</span>
+        <span style="font: 700 1.3rem 'Playpen Sans Variable'; transform: rotate(-4deg)">...έτοιμο σε 10 λεπτά!</span>
       </p>
       <div class="sticker" aria-label="Demo concept">Demo<br />concept</div>
     </div>
@@ -25,7 +25,7 @@ const marquee = 'Καφές ✺ Brunch ✺ Φρέσκο ψωμί ✺ Φραπέ 
       <div class="ticket-chip">
         <small>ΠΑΡΑΛΑΒΗ</small><strong>9:15</strong>
         <span class="steam" aria-hidden="true"><i></i><i></i><i></i></span>
-        <small style="color: inherit; font-family: Inter; font-weight: 700; letter-spacing: 0">Flat white + κρουασάν</small>
+        <small style="color: inherit; font-family: 'Inter Variable'; font-weight: 700; letter-spacing: 0">Flat white + κρουασάν</small>
       </div>
     </div>
   </div>

@@ -20,5 +20,6 @@ const focusMain = () => document.getElementById('main')?.focus()
     <p class="foot-logo">ALMYRA.</p>
     <p>Demo concept · Φανταστική επιχείρηση · Οι παραγγελίες δεν είναι πραγματικές.<br />
       Σχεδιασμός και υλοποίηση: Βασίλειος Βαρβέρογλου · Οι φωτογραφίες είναι δημιουργημένες με AI και ενδεικτικές.</p>
+    <p><RouterLink to="/privacy" class="foot-link">Απόρρητο και cookies</RouterLink></p>
   </footer>
 </template>
